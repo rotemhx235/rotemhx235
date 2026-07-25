@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Hebrew is the default locale: the app is built for Hebrew-speaking users
+  first, and this way it stays in Hebrew on any device that is not explicitly
+  set to English. See values-en for the English translation.
+-->
+<resources>
+    <string name="app_name">גדול</string>
+
+    <string name="accessibility_service_description">מאפשר להגדיל את המסך בכל אפליקציה, כדי שיהיה אפשר לקרוא טקסט קטן. האפליקציה אינה אוספת ואינה שולחת שום מידע.</string>
+    <string name="accessibility_service_summary">הגדלת מסך לקריאה נוחה</string>
+
+    <!-- Magnifier card -->
+    <string name="magnifier_title">הגדלת מסך</string>
+    <string name="magnifier_status_on">פעיל</string>
+    <string name="magnifier_status_off">כבוי</string>
+    <string name="magnifier_button_turn_on">הפעלת ההגדלה</string>
+    <string name="magnifier_button_turn_off">כיבוי ההגדלה</string>
+    <string name="magnifier_hint_off">לחיצה על הכפתור תפתח את מסך ההגדרות של הטלפון. יש לבחור שם את ״גדול״ ולהפעיל אותו.</string>
+    <string name="magnifier_hint_on">הכפתור העגול על המסך מגדיל ומקטין בלחיצה. אפשר לגרור אותו לכל מקום.</string>
+
+    <!-- Zoom card -->
+    <string name="zoom_title">כמה להגדיל</string>
+    <string name="zoom_value">פי %1$s</string>
+    <string name="zoom_hint">זו עוצמת ההגדלה כשלוחצים על הכפתור העגול.</string>
+    <string name="zoom_less_description">הגדלה חלשה יותר</string>
+    <string name="zoom_more_description">הגדלה חזקה יותר</string>
+
+    <!-- Font card -->
+    <string name="font_title">גודל הטקסט בטלפון</string>
+    <string name="font_value">%1$d%%</string>
+    <string name="font_reset">חזרה לגודל הרגיל</string>
+    <string name="font_hint">משנה את גודל הטקסט בכל הטלפון, בכל האפליקציות.</string>
+    <string name="font_smaller_description">טקסט קטן יותר</string>
+    <string name="font_bigger_description">טקסט גדול יותר</string>
+
+    <!-- Floating button -->
+    <string name="bubble_zoom_in">הגדלה</string>
+    <string name="bubble_zoom_out">חזרה לגודל רגיל</string>
+
+    <!-- Messages -->
+    <string name="toast_find_app_in_list">יש לבחור ״גדול״ ברשימה ולהפעיל אותו</string>
+    <string name="toast_allow_change_settings">יש לאשר ל״גדול״ לשנות הגדרות</string>
+    <string name="toast_font_blocked">הטלפון לא מאפשר שינוי מתוך האפליקציה. פותח את ההגדרות</string>
+    <string name="toast_could_not_open_settings">לא הצלחנו לפתוח את ההגדרות</string>
+
+    <string name="plus">+</string>
+    <string name="minus">−</string>
+</resources>

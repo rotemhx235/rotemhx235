@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="@string/app_name"
+            android:textColor="@color/text_primary"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <!-- Card 1: the magnifier -->
+        <LinearLayout style="@style/Card">
+
+            <TextView
+                style="@style/CardTitle"
+                android:text="@string/magnifier_title" />
+
+            <TextView
+                android:id="@+id/magnifier_status"
+                style="@style/StatusText"
+                android:text="@string/magnifier_status_off" />
+
+            <Button
+                android:id="@+id/magnifier_button"
+                style="@style/BigButton"
+                android:text="@string/magnifier_button_turn_on" />
+
+            <TextView
+                android:id="@+id/magnifier_hint"
+                style="@style/Hint"
+                android:text="@string/magnifier_hint_off" />
+
+        </LinearLayout>
+
+        <!-- Card 2: zoom strength -->
+        <LinearLayout
+            android:id="@+id/zoom_row"
+            style="@style/Card">
+
+            <TextView
+                style="@style/CardTitle"
+                android:text="@string/zoom_title" />
+
+            <TextView
+                android:id="@+id/zoom_value"
+                style="@style/StatusText"
+                android:textColor="@color/text_primary" />
+
+            <LinearLayout style="@style/ButtonRow">
+
+                <Button
+                    android:id="@+id/zoom_less"
+                    style="@style/StepButton"
+                    android:contentDescription="@string/zoom_less_description"
+                    android:text="@string/minus" />
+
+                <Button
+                    android:id="@+id/zoom_more"
+                    style="@style/StepButton"
+                    android:contentDescription="@string/zoom_more_description"
+                    android:text="@string/plus" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/Hint"
+                android:text="@string/zoom_hint" />
+
+        </LinearLayout>
+
+        <!-- Card 3: device-wide text size -->
+        <LinearLayout style="@style/Card">
+
+            <TextView
+                style="@style/CardTitle"
+                android:text="@string/font_title" />
+
+            <TextView
+                android:id="@+id/font_value"
+                style="@style/StatusText"
+                android:textColor="@color/text_primary" />
+
+            <LinearLayout style="@style/ButtonRow">
+
+                <Button
+                    android:id="@+id/font_smaller"
+                    style="@style/StepButton"
+                    android:contentDescription="@string/font_smaller_description"
+                    android:text="@string/minus" />
+
+                <Button
+                    android:id="@+id/font_bigger"
+                    style="@style/StepButton"
+                    android:contentDescription="@string/font_bigger_description"
+                    android:text="@string/plus" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/font_reset"
+                style="@style/SecondaryButton"
+                android:text="@string/font_reset" />
+
+            <TextView
+                style="@style/Hint"
+                android:text="@string/font_hint" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

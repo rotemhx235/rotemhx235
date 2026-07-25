@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  isAccessibilityTool marks this as a genuine assistive tool. Google Play uses
+  it to exempt the app from the prominent-disclosure requirements that apply to
+  non-accessibility uses of the AccessibilityService API, and Android uses it to
+  present the service correctly in the accessibility settings list.
+
+  canControlMagnification is what actually lets the service zoom the screen,
+  including the screens of other apps.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagDefault"
+    android:canControlMagnification="true"
+    android:description="@string/accessibility_service_description"
+    android:isAccessibilityTool="true"
+    android:notificationTimeout="100"
+    android:summary="@string/accessibility_service_summary" />

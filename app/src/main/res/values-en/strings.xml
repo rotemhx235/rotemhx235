@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gadol</string>
+
+    <string name="accessibility_service_description">Magnifies the screen in any app so small text can be read. This app does not collect or send any information.</string>
+    <string name="accessibility_service_summary">Screen magnification for easier reading</string>
+
+    <!-- Magnifier card -->
+    <string name="magnifier_title">Screen magnifier</string>
+    <string name="magnifier_status_on">On</string>
+    <string name="magnifier_status_off">Off</string>
+    <string name="magnifier_button_turn_on">Turn magnifier on</string>
+    <string name="magnifier_button_turn_off">Turn magnifier off</string>
+    <string name="magnifier_hint_off">This opens your phone\'s settings. Choose “Gadol” in the list and switch it on.</string>
+    <string name="magnifier_hint_on">Tap the round button on your screen to zoom in and out. Drag it anywhere you like.</string>
+
+    <!-- Zoom card -->
+    <string name="zoom_title">How much to magnify</string>
+    <string name="zoom_value">%1$s×</string>
+    <string name="zoom_hint">This is how strong the zoom is when you tap the round button.</string>
+    <string name="zoom_less_description">Less magnification</string>
+    <string name="zoom_more_description">More magnification</string>
+
+    <!-- Font card -->
+    <string name="font_title">Text size on this phone</string>
+    <string name="font_value">%1$d%%</string>
+    <string name="font_reset">Back to normal size</string>
+    <string name="font_hint">Changes the text size everywhere on your phone, in every app.</string>
+    <string name="font_smaller_description">Smaller text</string>
+    <string name="font_bigger_description">Bigger text</string>
+
+    <!-- Floating button -->
+    <string name="bubble_zoom_in">Zoom in</string>
+    <string name="bubble_zoom_out">Back to normal size</string>
+
+    <!-- Messages -->
+    <string name="toast_find_app_in_list">Choose “Gadol” in the list and switch it on</string>
+    <string name="toast_allow_change_settings">Allow “Gadol” to change settings</string>
+    <string name="toast_font_blocked">This phone blocks the change from inside apps. Opening settings</string>
+    <string name="toast_could_not_open_settings">Could not open settings</string>
+</resources>

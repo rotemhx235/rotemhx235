@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launcher icon for Android 7.x and 8.0, which predate adaptive icons.
+     Android 8.1 and up pick up mipmap-anydpi-v26 instead. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/ic_launcher_background" />
+        </shape>
+    </item>
+    <item
+        android:width="30dp"
+        android:height="30dp"
+        android:drawable="@drawable/ic_bubble_zoom"
+        android:gravity="center" />
+</layer-list>
